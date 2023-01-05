@@ -16,7 +16,7 @@ This app merges 2 PDFs. First contains odd pages, second contains even pages but
 
 ## Install dependency:
 ```
-$ pip install ypdf
+$ pip install pypdf
 ```
 
 ## Usage example:
