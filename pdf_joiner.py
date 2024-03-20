@@ -17,9 +17,9 @@ from os import path
 from pypdf import PdfReader, PdfWriter
 
 parser = argparse.ArgumentParser(description = 'Merges 2 PDFs. First contains odd pages, second contains even pages but from latest to the first',)
-parser.add_argument("--pdf1", help="path of the first PDF to merge")
-parser.add_argument("--pdf2", help="path of the second PDF to merge")
-parser.add_argument("--output", help="path of the output PDF")
+parser.add_argument("--pdf1", required=True, help="path of the first PDF to merge")
+parser.add_argument("--pdf2", required=True, help="path of the second PDF to merge")
+parser.add_argument("--output", required=True, help="path of the output PDF")
 args = parser.parse_args()
 
 print(f"PDF 1: {args.pdf1}", end="")
