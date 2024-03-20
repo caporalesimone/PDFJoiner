@@ -1,6 +1,6 @@
 # PDF Joiner
 
-This app merges 2 PDFs. First contains odd pages, second contains even pages but from latest to the first.
+This app merges 2 PDFs. First contains odd pages, second contains even pages from latest to the first.
 
 ## Why this?
 My scanner can scan pages automatically but can't scan front and back in one single action. 
