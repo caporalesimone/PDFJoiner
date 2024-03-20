@@ -2,6 +2,10 @@
 
 This app merges 2 PDFs. First contains odd pages, second contains even pages but from latest to the first.
 
+## Why this?
+My scanner can scan pages automatically but can't scan front and back in one single action. 
+With this tool I can create 2 different scans: 1st from the top of the document, 2nd from the bottom and then join both in one single pdf.
+
 ## Requirements:
 - All pages should be merged alternatively starting from `pdf1`.
 - All the pages of `pdf2` should be taken starting from the latest.
