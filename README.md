@@ -37,5 +37,17 @@ output.pdf PDF will have 36 pages.
 output.pdf written.
 ```
 
+## Docker
+You can build a Docker container using the Dockerfile in this repo using this command:
+```
+docker build -t pdfjoiner .
+```
+
+and you can run the container with this command:
+```
+docker run --rm -v "$PWD":/app pdfjoiner --pdf1 pdf1.pdf --pdf2 pdf2.pdf --output output.pdf
+```
+
+
 ## Notes:
 This app has been written with the help of [ChatGPT](https://openai.com/blog/chatgpt/) with an elementay Python knowledge.
